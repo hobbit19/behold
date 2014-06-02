@@ -4,7 +4,7 @@ class DB {
     public $db = null;
     
     function connect() {
-        $this->db = new SQLite3('data');
+        $this->db = new SQLite3('/pineapple/components/infusions/behold/data');
     }
 
     function db() {
